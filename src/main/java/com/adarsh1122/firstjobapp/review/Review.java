@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
-
 public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
